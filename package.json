@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc-monacoCoin",
-  "description": "monacoCoin Client Library to connect to monacoCoin Core via RPC",
+  "name": "bitcoind-rpc-monacocoin",
+  "description": "monacocoin Client Library to connect to monacocoin Core via RPC",
   "version": "1.0.0",
   "author": {
     "name": "Stephen Pair",
@@ -25,16 +25,16 @@
     },
     {
       "name":"Alex Werner",
-      "email":"alex.werner@monacoCoin.org"
+      "email":"alex.werner@monacocoin.org"
     }
   ],
   "keywords": [
-    "monacoCoin",
+    "monacocoin",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/monacoCoin-net/bitcoind-rpc-monacoCoin"
+    "url": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -51,7 +51,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/monacocoin-net/bitcoind-rpc-monacoCoin/issues"
+    "url": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin/issues"
   },
-  "homepage": "https://github.com/monacocoin-net/bitcoind-rpc-monacoCoin"
+  "homepage": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin"
 }

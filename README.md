@@ -1,18 +1,18 @@
-bitcoind-rpc-monacoCoin.js
+bitcoind-rpc-monacocoin.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-monacoCoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-monacoCoin)
-[![Build Status](https://img.shields.io/travis/monacoCoinpay/bitcoind-rpc-monacoCoin.svg?branch=master&style=flat-square)](https://travis-ci.org/monacoCoinpay/bitcoind-rpc-monacoCoin)
-[![Coverage Status](https://img.shields.io/coveralls/monacoCoinpay/bitcoind-rpc-monacoCoin.svg?style=flat-square)](https://coveralls.io/r/monacoCoinpay/bitcoind-rpc-monacoCoin?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-monacocoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-monacocoin)
+[![Build Status](https://img.shields.io/travis/monacocoinpay/bitcoind-rpc-monacocoin.svg?branch=master&style=flat-square)](https://travis-ci.org/monacocoinpay/bitcoind-rpc-monacocoin)
+[![Coverage Status](https://img.shields.io/coveralls/monacocoinpay/bitcoind-rpc-monacocoin.svg?style=flat-square)](https://coveralls.io/r/monacocoinpay/bitcoind-rpc-monacocoin?branch=master)
 
-A client library to connect to monacoCoin Core RPC in JavaScript.
+A client library to connect to monacocoin Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc-monacoCoin.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+bitcoind-rpc-monacocoin.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc-monacoCoin
+npm install bitcoind-rpc-monacocoin
 ```
 
 ## RpcClient
@@ -30,7 +30,7 @@ Arguments :
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc-monacoCoin');
+  var RpcClient = require('bitcoind-rpc-monacocoin');
 
   var config = {
     protocol: 'http',
@@ -84,10 +84,10 @@ var run = function() {
 
 You can dynamically access to the help of each method by doing
 ```
-const RpcClient = require('bitcoind-rpc-monacoCoin');
+const RpcClient = require('bitcoind-rpc-monacocoin');
 var client = new RPCclient({
     protocol:'http',
-    user: 'monacoCoin',
+    user: 'monacocoin',
     pass: 'local321', 
     host: '127.0.0.1', 
     port: 19998
