@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc-monacocoin",
-  "description": "monacocoin Client Library to connect to monacocoin Core via RPC",
+  "name": "bitcoind-rpc-monoeci",
+  "description": "monoeci Client Library to connect to monoeci Core via RPC",
   "version": "1.0.0",
   "author": {
     "name": "Stephen Pair",
@@ -24,17 +24,17 @@
       "email": "braydon@bitpay.com"
     },
     {
-      "name":"Alex Werner",
-      "email":"alex.werner@monacocoin.org"
+      "name": "Alex Werner",
+      "email": "alex.werner@dash.org"
     }
   ],
   "keywords": [
-    "monacocoin",
+    "monoeci",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin"
+    "url": "https://github.com/yoyae/bitcoind-rpc-monoeci"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -51,7 +51,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin/issues"
+    "url": "https://github.com/yoyae/bitcoind-rpc-monoeci/issues"
   },
-  "homepage": "https://github.com/monacocoin-net/bitcoind-rpc-monacocoin"
+  "homepage": "https://github.com/yoyae/bitcoind-rpc-monoeci"
 }
